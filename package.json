@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.4",
+    "mapbox-gl": "^2.15.0",
+    "next": "12.1.2",
+    "prettier": "^3.0.3",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-map-gl": "^7.1.6",
+    "react-simple-typewriter": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "@types/react": "17.0.26",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.3"
+  }
+}

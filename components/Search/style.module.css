@@ -1,0 +1,27 @@
+.search {
+  text-align: center;
+}
+
+.search_bar {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: var(--main-blue);
+  padding-left: 20px;
+  margin-right: 5px;
+}
+
+.search_btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: var(--main-blue);
+  color: var(--white);
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.search_btn:active {
+  background: var(--main-blue-accent);
+}

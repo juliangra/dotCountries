@@ -1,0 +1,26 @@
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-blue);
+}
+
+.title {
+  font-size: 5em;
+  margin: 0 0 25px 0;
+}
+
+.title::after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background: var(--accent);
+  margin: 20px auto 0 auto;
+}
+
+.byline {
+  font-size: 1.5em;
+  margin: 0 0 40px 0;
+}
