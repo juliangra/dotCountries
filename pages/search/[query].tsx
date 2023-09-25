@@ -24,7 +24,7 @@ const search: React.FC<searchProps> = ({ foundResult, input, data, wikiExcerpt }
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const query = context.query.query as string
 
-  let res = await fetch(`http://localhost:3000/api/${encodeURIComponent(query)}`)
+  let res = await fetch(`/api/${encodeURIComponent(query)}`)
   let data = await res.json()
 
   data = data.data
