@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>dotCountries - Geography encyclopædia</title>
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
-      <Flex height={'85vh'} alignContent={'center'} justifyContent={'center'}>
+      <Flex height={'83vh'} alignContent={'center'} justifyContent={'center'}>
         <Center>
           <div>
             <Splash />
