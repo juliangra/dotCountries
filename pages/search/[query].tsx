@@ -24,7 +24,9 @@ const search: React.FC<searchProps> = ({ foundResult, input, data, wikiExcerpt }
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const query = context.query.query as string
 
-  let res = await fetch(`/api/${encodeURIComponent(query)}`)
+  const URL = process.env.VERCEL_URL ? `https://` + process.env.VERCEL_URL : 'http://localhost:3000'
+
+  let res = await fetch(`${URL}/api/${encodeURIComponent(query)}`)
   let data = await res.json()
 
   data = data.data
